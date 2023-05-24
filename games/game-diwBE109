@@ -20,14 +20,14 @@
 <!--Function to check password the already set password is admin-->
 <script type="text/javascript">
     function checkPswd() {
-        var confirmPassword = "admin";
+        var confirmPassword = "col131";
         var password = document.getElementById("pswd").value;
         if (password == confirmPassword) {
-             window.location="https://www.speedquizzing.com";
-        window.location="welcome.html";
+            alert("Correct!");
+        window.location="/gameindex";
         }
         else{
-            alert("Passwords do not match.");
+            alert("Your code is incorrect, please check with the matchmaker.");
         }
     }
 </script>
@@ -35,6 +35,4 @@
    
 </body>
 </html
-  
-
   
